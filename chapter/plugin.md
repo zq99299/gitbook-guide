@@ -38,6 +38,8 @@ cnpm install gitbook-plugin-tbfed-pagefooter
 
 标题带有 github 样式的锚点。https://plugins.gitbook.com/plugin/anchors
 
+**实际测试：** 可用性还行，点击标题能让该标题内容滚动到当前拼命的最上方
+
 ## github-buttons
 
 显示 github 仓库的 star 和 fork 按钮。
