@@ -123,8 +123,8 @@ Gitbook默认带有5个插件：
 
 
 # book.json
-!FILENAME book.json
-```json
+
+```js:test.js
 {
     "title" : "Gibook Use",
     "description" : "记录Gitbook的配置和一些插件的使用",
