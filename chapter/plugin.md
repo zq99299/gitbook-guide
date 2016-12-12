@@ -54,6 +54,7 @@ https://plugins.gitbook.com/plugin/github-buttons
       "size": "small"
     }
 ```
+**实际测试：** 由于访问github，载入速度会拖垮一大截
 
 ## prism
 https://plugins.gitbook.com/plugin/prism
