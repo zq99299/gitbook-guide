@@ -10,7 +10,7 @@
        "prism",
        "-highlight",
        "toc",
-       "codeblock-filename" 
+       "-codeblock-filename" 
     ],
   "pluginsConfig": {
     "prism": {
