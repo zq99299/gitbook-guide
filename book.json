@@ -58,6 +58,7 @@
     "atoc": {
         "addClass": true,
         "className": "atoc"
-    }
+    },
+    "expandable-chapters":{}
   }
 } 
