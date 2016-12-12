@@ -34,7 +34,7 @@
         "hostname": "http://mrcode.cn/"
     },
     "github-buttons": {
-      "repo": "https://github.com/zq99299/gitbook-guide.git",
+      "repo": "zq99299/gitbook-guide",
       "types": [
         "star",
         "watch"
