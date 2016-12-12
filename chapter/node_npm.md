@@ -3,6 +3,13 @@
 * 镜像更换
 
 ## 修改配置文件
+C:\Users（用户）\你的用户名\.npmrc 这个文件中
+```
+prefix=e:\node\node-global
+cache=E:\node\node-cache
+registry = http://registry.cnpmjs.org 
+```
+以上文件名需要注意，最好不要有中文和空格，否则会出现，输入npm命令无任务反应
 
 ## 命令行修改
 配置npm的全局模块存放路径和cache路径 
