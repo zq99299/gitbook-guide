@@ -44,6 +44,16 @@ cnpm install gitbook-plugin-tbfed-pagefooter
 
 显示 github 仓库的 star 和 fork 按钮。
 https://plugins.gitbook.com/plugin/github-buttons
+```json
+"github-buttons": {
+      "repo": "zq99299/gitbook-guide",  // 不需要https://github.com/前缀
+      "types": [
+        "star",
+        "watch"
+      ],
+      "size": "large"
+    }
+```
 
 ## prism
 https://plugins.gitbook.com/plugin/prism
