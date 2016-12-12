@@ -13,7 +13,8 @@
        "-codeblock-filename" ,
        "-sectionx",
        "anchors",
-       "-github-buttons"  
+       "-github-buttons",
+       "book-summary-scroll-position-saver"  
     ],
   "pluginsConfig": {
     "prism": {
