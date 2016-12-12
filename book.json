@@ -10,7 +10,8 @@
        "prism",
        "-highlight",
        "-toc",
-       "atoc",
+       "-atoc",
+       "anchor-navigation"
        "-codeblock-filename" ,
        "-sectionx",
        "anchors",
