@@ -11,7 +11,7 @@
        "-highlight",
        "toc",
        "-codeblock-filename" ,
-       "sectionx"
+       "-sectionx"
     ],
   "pluginsConfig": {
     "prism": {
