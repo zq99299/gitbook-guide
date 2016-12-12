@@ -17,7 +17,8 @@
        "anchors",
        "-github-buttons",
        "-book-summary-scroll-position-saver",
-       "tbfed-pagefooter"  
+       "tbfed-pagefooter",
+       "expandable-chapters"  
     ],
   "pluginsConfig": {
     "prism": {
