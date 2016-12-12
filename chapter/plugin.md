@@ -409,7 +409,7 @@ google 统计
 "plugins": [ "local-video" ]
 ```
 
-## Toc / atoc
+## Toc / atoc / anchor-navigation
 
 自动生成本页的目录结构，一般情况下生成的目录是正常的，但是可能会与其他插件冲突，造成生成的目录不正确.
 
