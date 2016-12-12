@@ -6,7 +6,7 @@
        "splitter",
        "emphasize",
        "github",
-       "toggle-chapters",
+       "-toggle-chapters",
        "prism",
        "-highlight",
        "toc",
