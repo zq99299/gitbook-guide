@@ -51,7 +51,7 @@ https://plugins.gitbook.com/plugin/github-buttons
         "star",
         "watch"
       ],
-      "size": "large"
+      "size": "small"
     }
 ```
 
