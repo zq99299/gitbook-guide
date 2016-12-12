@@ -32,6 +32,14 @@
     },
     "sitemap": {
         "hostname": "http://mrcode.cn/"
+    },
+    "github-buttons": {
+      "repo": "azu/JavaScript-Plugin-Architecture",
+      "types": [
+        "star",
+        "watch"
+      ],
+      "size": "large"
     }
   }
 } 
