@@ -15,6 +15,23 @@ cnpm install gitbook-plugin-插件名称
 cnpm install gitbook-plugin-tbfed-pagefooter
 ```
 
+## prism 代码高亮
+https://plugins.gitbook.com/plugin/prism
+基于 Prism 的代码高亮。
+
+## anchors 标题带有 github 样式的锚点。
+https://plugins.gitbook.com/plugin/anchors
+
+**实际测试：** 可用性还行，点击标题能让该标题内容滚动到当前屏幕的最上方
+
+# Splitter 使侧边栏的宽度可以自由调节
+
+
+插件地址 : https://plugins.gitbook.com/plugin/splitter
+
+![](/images/gitbook-splitter-demo.gif)
+
+
 ## styles-sass
 
 使用 SASS 替换 CSS。
@@ -33,10 +50,7 @@ https://plugins.gitbook.com/plugin/book-summary-scroll-position-saver
 
 **实际测试：** 暂时没有发现有什么用处，貌似也没有什么效果
 
-## anchors 标题带有 github 样式的锚点。
-https://plugins.gitbook.com/plugin/anchors
 
-**实际测试：** 可用性还行，点击标题能让该标题内容滚动到当前屏幕的最上方
 
 ## github-buttons
 
@@ -54,15 +68,12 @@ https://plugins.gitbook.com/plugin/github-buttons
 ```
 **实际测试：** 由于访问github，载入速度会拖垮一大截
 
-## prism
-https://plugins.gitbook.com/plugin/prism
-基于 Prism 的代码高亮。
 
-## Disqus
 
-添加disqus评论
+## Disqus disqus评论
 
-[插件地址](https://plugins.gitbook.com/plugin/disqus)
+插件地址 ：https://plugins.gitbook.com/plugin/disqus
+
 ```json
 "plugins": [
     "disqus"
@@ -74,11 +85,10 @@ https://plugins.gitbook.com/plugin/github-buttons
 }
 ```
 
-## Duoshuo
+## Duoshuo 多说
 
-添加多说
+插件地址 ： https://plugins.gitbook.com/plugin/duoshuo
 
-[插件地址](https://plugins.gitbook.com/plugin/duoshuo)
 ```json
 {
     "plugins": [
@@ -93,10 +103,11 @@ https://plugins.gitbook.com/plugin/github-buttons
 }
 ```
 
-## Search Pro
+## Search Pro 支持中文搜索
 
 支持中文搜索, 需要将默认的search插件去掉, :worried: 在window下安装该插件时总是出错 :worried:
-[插件地址](https://plugins.gitbook.com/plugin/search-pro)
+插件地址 ：https://plugins.gitbook.com/plugin/search-pro 
+
 ```json
 "plugins": [
     "-search",
@@ -125,7 +136,7 @@ https://plugins.gitbook.com/plugin/github-buttons
 :bowtie: :smile: :laughing: :blush: :smiley: :relaxed:
 
 
-## Github
+## Github 顶部右上角添加github图标
 
 在顶部右上角添加github图标，点击该图标跳转到自己配置的地址
 [插件地址](https://plugins.gitbook.com/plugin/github)
@@ -182,7 +193,7 @@ This text is {% em type="red" %}highlighted in red!{% endem %}
 This text is {% em color="#ff0000" %}highlighted with a custom color!{% endem %}
 ```
 
-## include-codeblock
+## include-codeblock 使用代码块显示指定文件的内容
 使用代码块的格式显示所包含文件的内容. 该文件必须存在.
 
 [插件地址](https://plugins.gitbook.com/plugin/include-codeblock)
@@ -221,13 +232,6 @@ h1 , h2{
 ```
 
 
-# Splitter
-使侧边栏的宽度可以自由调节
-
-插件地址 : https://plugins.gitbook.com/plugin/splitter
-
-![](/images/gitbook-splitter-demo.gif)
-
 ## Mermaid
 
 支持渲染Mermaid图表
@@ -239,7 +243,7 @@ h1 , h2{
 ]
 ```
 
-## Sharing
+## Sharing 分享图标
 
 分享当前页面, gitbook的默认插件, 使用下面方式来禁用
 ```json
