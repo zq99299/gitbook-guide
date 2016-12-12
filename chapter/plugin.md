@@ -167,8 +167,9 @@ This text is {% em type="red" %}highlighted in red!{% endem %}
 This text is {% em color="#ff0000" %}highlighted with a custom color!{% endem %}
 ```
 
+## include-codeblock
+使用代码块的格式显示所包含文件的内容. 该文件必须存在.
 
-## 使用代码块的格式显示所包含文件的内容. 该文件必须存在.
 [插件地址](https://plugins.gitbook.com/plugin/include-codeblock)
 ```json
 "plugins": [
