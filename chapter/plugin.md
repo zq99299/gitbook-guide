@@ -36,7 +36,7 @@ cnpm install gitbook-plugin-tbfed-pagefooter
 
 ## anchors
 
-标题带有 github 样式的锚点。
+标题带有 github 样式的锚点。https://plugins.gitbook.com/plugin/anchors
 
 ## github-buttons
 
