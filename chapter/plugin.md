@@ -34,6 +34,12 @@ cnpm install gitbook-plugin-插件名称
 cnpm install gitbook-plugin-tbfed-pagefooter
 ```
 
+## book-summary-scroll-position-saver
+
+自动保存左侧目录区域导航条的位置。
+
+https://plugins.gitbook.com/plugin/book-summary-scroll-position-saver
+
 ## anchors
 
 标题带有 github 样式的锚点。https://plugins.gitbook.com/plugin/anchors
