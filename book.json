@@ -11,7 +11,7 @@
        "-highlight",
        "-toc",
        "-atoc",
-       "anchor-navigation",
+       "-anchor-navigation",
        "-codeblock-filename" ,
        "-sectionx",
        "anchors",
