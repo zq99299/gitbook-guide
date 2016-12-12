@@ -51,6 +51,10 @@
     "toc": {
         "addClass": true,
         "className": "toc"
+    },
+    "atoc": {
+        "addClass": true,
+        "className": "atoc"
     }
   }
 } 
