@@ -21,7 +21,7 @@ https://plugins.gitbook.com/plugin/anchors
 
 **实际测试：** 可用性还行，点击标题能让该标题内容滚动到当前屏幕的最上方
 
-# Splitter 使侧边栏的宽度可以自由调节
+## Splitter 使侧边栏的宽度可以自由调节
 
 
 插件地址 : https://plugins.gitbook.com/plugin/splitter
