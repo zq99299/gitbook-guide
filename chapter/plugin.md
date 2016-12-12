@@ -37,6 +37,16 @@ cnpm install gitbook-plugin-插件名称
 cnpm install gitbook-plugin-tbfed-pagefooter
 ```
 
+## styles-sass
+
+使用 SASS 替换 CSS。
+https://plugins.gitbook.com/plugin/styles-sass
+
+## styles-less
+
+使用 LESS 替换 CSS。
+https://plugins.gitbook.com/plugin/styles-less
+
 ## book-summary-scroll-position-saver
 
 自动保存左侧目录区域导航条的位置。
