@@ -1,11 +1,7 @@
-
-<!-- toc -->
-
-
-
 # 插件
 记录一些实用的插件, 如果要指定插件的版本可以使用 `plugin@0.3.1`。下面的插件在 `GitBook 的 2.6.4版本中`可以正常工作，因为一些插件可能不会随着 `GitBook` 版本的升级而升级，即下面的插件可能不适用高版本的 `GitBook`，所以这里指定了`GitBook`的版本。另外一些插件在windows上的安装会有问题，比如 `Search Pro` 和 `Mermaid`，我也没有找到特别好的解决办法，如果有知道相关解决办法的，请不吝赐教。
 
+<!-- toc -->
 
 
 > 插件安装：由于被墙，所以不能通过配置book.json中配置文件自动下载安装，否则会很慢，使用cnpm手动全局安装好以后，会自动在缓存中获取。
@@ -15,6 +11,7 @@ cnpm install gitbook-plugin-插件名称
 cnpm install gitbook-plugin-tbfed-pagefooter
 ```
 
+# 觉得比较好用的插件
 ## prism 代码高亮
 https://plugins.gitbook.com/plugin/prism
 基于 Prism 的代码高亮。
@@ -31,7 +28,74 @@ https://plugins.gitbook.com/plugin/anchors
 
 ![](/images/gitbook-splitter-demo.gif)
 
+## Tbfed-pagefooter
 
+为页面添加页脚
+
+插件地址 : https://plugins.gitbook.com/plugin/tbfed-pagefooter
+```json
+"plugins": [
+   "tbfed-pagefooter"
+],
+"pluginsConfig": {
+    "tbfed-pagefooter": {
+        "copyright":"Copyright &copy zhangjikai.com 2015",
+        "modify_label": "该文件修订时间：",
+        "modify_format": "YYYY-MM-DD HH:mm:ss"
+    }
+}
+```
+**实际测试：** 非常不错，能在文章最底部显示文件的修改时间
+
+## Toggle Chapters
+
+是左侧的章节目录可以折叠
+
+插件地址 : https://plugins.gitbook.com/plugin/toggle-chapters
+```json
+"plugins": ["toggle-chapters"]
+```
+**实际测试：** 该插件还行，就是折叠没有任何样式，很难发现
+
+
+## Toc / atoc / anchor-navigation
+
+自动生成本页的目录结构，一般情况下生成的目录是正常的，但是可能会与其他插件冲突，造成生成的目录不正确.
+
+插件地址 : 
+* https://plugins.gitbook.com/plugin/toc
+* https://plugins.gitbook.com/plugin/atoc
+* https://plugins.gitbook.com/plugin/anchor-navigation
+
+下面的 pluginsConfig用来给ul添加css样式
+```json
+"pugins": [
+    "toc"
+],
+"pluginsConfig": {
+    "toc": {
+        "addClass": true,
+        "className": "toc"
+    }
+}
+```
+使用方法: 在需要生成目录的地方加上
+
+**实际测试：** 两个插件不能混用
+* toc : 文档中可以存在多个，平面的被插入到指定位置
+* atoc : 文档中只能存在一个，悬浮在最右侧
+
+![](/images/atoc-demo.png)
+
+* anchor-navigation : 效果挺不错，但是我这里测试并没有显示出来，测试失败
+
+![](/images/anchor-navigation-demo.JPG)
+
+
+--------
+
+
+# 没有尝试或则尝试失败的插件
 ## styles-sass
 
 使用 SASS 替换 CSS。
@@ -267,34 +331,7 @@ h1 , h2{
 }
 ```
 
-## Tbfed-pagefooter
 
-为页面添加页脚
-
-插件地址 : https://plugins.gitbook.com/plugin/tbfed-pagefooter
-```json
-"plugins": [
-   "tbfed-pagefooter"
-],
-"pluginsConfig": {
-    "tbfed-pagefooter": {
-        "copyright":"Copyright &copy zhangjikai.com 2015",
-        "modify_label": "该文件修订时间：",
-        "modify_format": "YYYY-MM-DD HH:mm:ss"
-    }
-}
-```
-**实际测试：** 非常不错，能在文章最底部显示文件的修改时间
-
-## Toggle Chapters
-
-是左侧的章节目录可以折叠
-
-插件地址 : https://plugins.gitbook.com/plugin/toggle-chapters
-```json
-"plugins": ["toggle-chapters"]
-```
-**实际测试：** 该插件还行，就是折叠没有任何样式，很难发现
 
 ## Sectionx
 
@@ -400,41 +437,6 @@ google 统计
 ```json
 "plugins": [ "local-video" ]
 ```
-
-## Toc / atoc / anchor-navigation
-
-自动生成本页的目录结构，一般情况下生成的目录是正常的，但是可能会与其他插件冲突，造成生成的目录不正确.
-
-插件地址 : 
-* https://plugins.gitbook.com/plugin/toc
-* https://plugins.gitbook.com/plugin/atoc
-* https://plugins.gitbook.com/plugin/anchor-navigation
-
-下面的 pluginsConfig用来给ul添加css样式
-```json
-"pugins": [
-    "toc"
-],
-"pluginsConfig": {
-    "toc": {
-        "addClass": true,
-        "className": "toc"
-    }
-}
-```
-使用方法: 在需要生成目录的地方加上
-
-**实际测试：** 两个插件不能混用
-* toc : 文档中可以存在多个，平面的被插入到指定位置
-* atoc : 文档中只能存在一个，悬浮在最右侧
-
-![](/images/atoc-demo.png)
-
-* anchor-navigation : 效果挺不错，但是我这里测试并没有显示出来，测试失败
-
-![](/images/anchor-navigation-demo.JPG)
-
-
 
 
 ## Edit Link
