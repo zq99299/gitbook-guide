@@ -124,7 +124,7 @@ Gitbook默认带有5个插件：
 
 # book.json
 
-```json:book.json
+```json
 {
     "title" : "Gibook Use",
     "description" : "记录Gitbook的配置和一些插件的使用",
