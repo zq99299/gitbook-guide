@@ -39,6 +39,7 @@ cnpm install gitbook-plugin-tbfed-pagefooter
 自动保存左侧目录区域导航条的位置。
 
 https://plugins.gitbook.com/plugin/book-summary-scroll-position-saver
+**实际测试：** 暂时没有发现有什么用处，貌似也没有什么效果
 
 ## anchors
 
