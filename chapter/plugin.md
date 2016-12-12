@@ -6,29 +6,7 @@
 # 插件
 记录一些实用的插件, 如果要指定插件的版本可以使用 `plugin@0.3.1`。下面的插件在 `GitBook 的 2.6.4版本中`可以正常工作，因为一些插件可能不会随着 `GitBook` 版本的升级而升级，即下面的插件可能不适用高版本的 `GitBook`，所以这里指定了`GitBook`的版本。另外一些插件在windows上的安装会有问题，比如 `Search Pro` 和 `Mermaid`，我也没有找到特别好的解决办法，如果有知道相关解决办法的，请不吝赐教。
 
-* Disqus - Disqus评论
-* duoshuo - 多说
-* Search Pro - 支持中文搜索
-* Advanced Emoji - 支持emoji表情
-* Github - 添加github图标
-* Ace Plugin - 支持ace
-* Emphasize - 强调文字(为文字加上底色)
-* KaTex - 支持数学公式
-* Include Codeblock - 使用代码块显示指定文件的内容
-* Splitter - 自由调节侧边栏宽度
-* Mermaid -支持渲染Mermaid图表
-* sharing - 分享
-* Tbfed-pagefooter - 为页面添加页脚
-* Toggle Chapters - 折叠章节
-* Sectionx - 将页面分块显示
-* Codeblock-filename - 为代码块添加文件名称
-* ga - google 统计
-* baidu - 百度统计
-* donate - 打赏
-* Local Video - 使用Video.js播放视频
-* toc - 自动生成目录
-* Edit Link - 链接到当前页源文件上
-* sitemap - 生成sitemap
+
 
 > 插件安装：由于被墙，所以不能通过配置book.json中配置文件自动下载安装，否则会很慢，使用cnpm手动全局安装好以后，会自动在缓存中获取。
 ```
@@ -52,13 +30,13 @@ https://plugins.gitbook.com/plugin/styles-less
 自动保存左侧目录区域导航条的位置。
 
 https://plugins.gitbook.com/plugin/book-summary-scroll-position-saver
+
 **实际测试：** 暂时没有发现有什么用处，貌似也没有什么效果
 
-## anchors
+## anchors 标题带有 github 样式的锚点。
+https://plugins.gitbook.com/plugin/anchors
 
-标题带有 github 样式的锚点。https://plugins.gitbook.com/plugin/anchors
-
-**实际测试：** 可用性还行，点击标题能让该标题内容滚动到当前拼命的最上方
+**实际测试：** 可用性还行，点击标题能让该标题内容滚动到当前屏幕的最上方
 
 ## github-buttons
 
