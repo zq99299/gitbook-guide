@@ -12,7 +12,8 @@
        "toc",
        "-codeblock-filename" ,
        "-sectionx",
-       "anchors"
+       "anchors",
+       "github-buttons"  
     ],
   "pluginsConfig": {
     "prism": {
