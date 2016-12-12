@@ -64,3 +64,8 @@ gitbook build --log=debug
 ```
 gitbook builid --debug
 ```
+
+## 配置完成后需要安装到目录
+```
+gitbook install ./
+```
