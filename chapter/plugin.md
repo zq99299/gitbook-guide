@@ -57,6 +57,9 @@ https://plugins.gitbook.com/plugin/anchors
 ```
 **实际测试：** 该插件还行，就是折叠没有任何样式，很难发现
 
+## expandable-chapters 目录折叠
+https://github.com/DomainDrivenArchitecture/gitbook-plugin-expandable-chapters
+**实际测试：** 有样式，比上面的好
 
 ## Toc / atoc / anchor-navigation
 
