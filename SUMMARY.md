@@ -9,3 +9,4 @@
 * [3. 配置](chapter/bookjson.md)
 * [4. 插件](chapter/plugin.md)
 * [5. 自用插件](chapter/mebookjson.md)
+* [6. NPM相关](chapter/node_npm.md)
