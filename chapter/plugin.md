@@ -299,6 +299,7 @@ h1 , h2{
 ```json
 "plugins": ["toggle-chapters"]
 ```
+**实际测试：** 该插件还行，就是折叠没有任何样式，很难发现
 
 ## Sectionx
 
