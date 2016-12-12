@@ -34,7 +34,7 @@
         "hostname": "http://mrcode.cn/"
     },
     "github-buttons": {
-      "repo": "azu/JavaScript-Plugin-Architecture",
+      "repo": "https://github.com/zq99299/gitbook-guide.git",
       "types": [
         "star",
         "watch"
