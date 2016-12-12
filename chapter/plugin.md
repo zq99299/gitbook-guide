@@ -416,6 +416,7 @@ google 统计
 插件地址 : 
 * https://plugins.gitbook.com/plugin/toc
 * https://plugins.gitbook.com/plugin/atoc
+* https://plugins.gitbook.com/plugin/anchor-navigation
 
 下面的 pluginsConfig用来给ul添加css样式
 ```json
@@ -436,6 +437,13 @@ google 统计
 * atoc : 文档中只能存在一个，悬浮在最右侧
 
 ![](/images/atoc-demo.png)
+
+* anchor-navigation : 效果挺不错，但是我这里测试并没有显示出来，测试失败
+
+![](/images/anchor-navigation-demo.JPG)
+
+
+
 
 ## Edit Link
 
