@@ -16,7 +16,7 @@
        "-sectionx",
        "anchors",
        "-github-buttons",
-       "book-summary-scroll-position-saver",
+       "-book-summary-scroll-position-saver",
        "tbfed-pagefooter"  
     ],
   "pluginsConfig": {
