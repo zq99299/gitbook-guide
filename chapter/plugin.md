@@ -34,6 +34,10 @@ cnpm install gitbook-plugin-插件名称
 cnpm install gitbook-plugin-tbfed-pagefooter
 ```
 
+## anchors
+
+标题带有 github 样式的锚点。
+
 ## github-buttons
 
 显示 github 仓库的 star 和 fork 按钮。
