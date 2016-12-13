@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [前言](README.md)
 * [1. 安装](chapter/install.md)
 * [2. 命令](chapter/command.md)
 * [3. 配置](chapter/bookjson.md)
