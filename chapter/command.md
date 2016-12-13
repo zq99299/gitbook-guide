@@ -18,6 +18,16 @@ gitbook --help
 ## 初始化一个目录
 新建目录列表文件：SUMMARY.md  和 README.md 文件，使用以下命令会根据 目录列表生成目录结构和空文件
 ```vim
+SUMMARY.md
+
+This is the summary of my book.
+
+* [section 1](section1/README.md)
+    * [example 1](section1/example1.md)
+    * [example 2](section1/example2.md)
+* [section 2](section2/README.md)
+    * [example 1](section2/example1.md)
+
 gitbook init
 ```
 
