@@ -37,6 +37,7 @@ gitbook build
 ```
 
 ## 生成静态网页并运行服务器
+实时预览
 
 ```
 gitbook serve
