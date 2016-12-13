@@ -15,6 +15,12 @@ gitbook help
 gitbook --help
 ```
 
+## 初始化一个目录
+新建目录列表文件：SUMMARY.md  和 README.md 文件，使用以下命令会根据 目录列表生成目录结构和空文件
+```vim
+gitbook init
+```
+
 ## 生成静态网页
 ```
 gitbook build
