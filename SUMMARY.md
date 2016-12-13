@@ -1,10 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [1.安装与入门](chapter1/README.md)
-    * [1.3. 插件](chapter1/plugin.md)
-
------
 * [1. 安装](chapter/install.md)
 * [2. 命令](chapter/command.md)
 * [3. 配置](chapter/bookjson.md)
