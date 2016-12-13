@@ -37,11 +37,13 @@ gitbook build
 ```
 
 ## 生成静态网页并运行服务器
+
 ```
 gitbook serve
 ```
 
 ## 生成时指定gitbook的版本, 本地没有会先下载
+高版本的会生成基于服务器版本的静态文件，单独打开里面的链接不能跳转，报错：ajax跨域
 ```
 gitbook build --gitbook=2.0.1
 ```
