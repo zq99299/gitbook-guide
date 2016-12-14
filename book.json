@@ -19,7 +19,8 @@
        "-book-summary-scroll-position-saver",
        "tbfed-pagefooter",
        "expandable-chapters",
-       "components"  
+       "components",
+       "ace"  
     ],
   "pluginsConfig": {
     "prism": {
