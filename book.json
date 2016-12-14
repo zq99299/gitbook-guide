@@ -21,7 +21,8 @@
        "expandable-chapters",
        "components",
        "ace",
-       "navigator"  
+       "navigator",
+       "page-treeview"  
     ],
   "pluginsConfig": {
     "prism": {
