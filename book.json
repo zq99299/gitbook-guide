@@ -10,7 +10,7 @@
        "prism",
        "-highlight",
        "-toc",
-       "atoc",
+       "-atoc",
        "-anchor-navigation",
        "-codeblock-filename" ,
        "-sectionx",
@@ -20,7 +20,7 @@
        "tbfed-pagefooter",
        "expandable-chapters",
        "-components",
-       "ace",
+       "-ace",
        "navigator",
        "page-treeview"  
     ],
