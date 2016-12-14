@@ -4,6 +4,17 @@
 <!-- toc -->
 
 
+{%ace edit=true, lang='c_cpp'%}
+// This is a hello world program for C.
+#include <stdio.h>
+
+int main(){
+  printf("Hello World!");
+  return 1;
+}
+{%endace%}
+
+
 > 插件安装：由于被墙，所以不能通过配置book.json中配置文件自动下载安装，否则会很慢，使用cnpm手动全局安装好以后，会自动在缓存中获取。
 ```
 cnpm install gitbook-plugin-插件名称
