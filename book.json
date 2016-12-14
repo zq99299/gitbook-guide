@@ -19,7 +19,7 @@
        "-book-summary-scroll-position-saver",
        "tbfed-pagefooter",
        "expandable-chapters",
-       "components",
+       "-components",
        "ace",
        "navigator",
        "page-treeview"  
