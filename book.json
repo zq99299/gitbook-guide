@@ -59,6 +59,21 @@
         "addClass": true,
         "className": "atoc"
     },
-    "expandable-chapters":{}
+    "expandable-chapters":{},
+    "components": {
+      "templatePath": "components",
+      "templates": [
+        {
+          "name": "header",
+          "target": "body",
+          "prepend": "true"
+        },
+        {
+          "name": "footer",
+          "target": ".book",
+          "prepend": "false"
+        }
+      ]
+    }
   }
 } 
