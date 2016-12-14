@@ -11,7 +11,8 @@
        "tbfed-pagefooter",
        "expandable-chapters",
        "navigator",
-       "-page-treeview"  
+       "-page-treeview",
+       "page-footer"  
     ],
   "pluginsConfig": {
     "prism": {
