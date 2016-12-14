@@ -75,19 +75,19 @@
             "minHeaderCount": "1",
             "minHeaderDeep": "1"
      },
-     "page-footer": {
+    "page-footer": {
             "description": "modified at",
             "signature": "Aleen",
             "wisdom": "More than a coder, more than a designer",
             "format": "yyyy-MM-dd hh:mm:ss",
-            "copyright": "Copyright &#169; aleen42",
+            "copyright": "Copyright &#169; zq99299",
             "timeColor": "#666",
             "copyrightColor": "#666",
             "utcOffset": "8",
             "isShowQRCode": true,
-            "baseUri": "https://github.com/zq99299/gitbook-guide",
+            "baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
             "isShowIssues": true,
-            "repo": "zq99299/gitbook-guide/issues",
+            "repo": "zq99299/gitbook-guide",
             "issueNum": "8",
             "token": "",
             "style": "normal"
