@@ -20,7 +20,8 @@
        "tbfed-pagefooter",
        "expandable-chapters",
        "components",
-       "ace"  
+       "ace",
+       "navigator"  
     ],
   "pluginsConfig": {
     "prism": {
