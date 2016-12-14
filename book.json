@@ -81,6 +81,7 @@
     },
     "page-treeview": {
             "style": "markdown",
+            "copyright": "Copyright &#169; zq99299", 
             "minHeaderCount": "1",
             "minHeaderDeep": "1"
      }
