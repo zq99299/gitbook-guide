@@ -12,10 +12,11 @@ cnpm install gitbook-plugin-tbfed-pagefooter
 ```
 
 ## 测试实用性点评-个人观点
-* [4.1. prismjs 代码高亮](plugin/prismjs.md)  `★★★★★`
+* [4.1. prismjs 代码高亮](plugin/prismjs.md) `★★★★★`
 * [4.2. ace 代码高亮编辑](plugin/ace.md)
 * [4.3. navigator 页面导航](plugin/navigator.md) `★★★★★`
 * [page-footer 页脚添加信息](https://github.com/aleen42/gitbook-footer) `★★★★★`
+* [anchor-navigation-ex 自用修复navigator插件相关bug和增加功能](https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex) `★★★★★`
 
 
 
