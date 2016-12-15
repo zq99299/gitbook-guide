@@ -116,6 +116,12 @@ https://plugins.gitbook.com/plugin/github-buttons
 支持中文搜索, 需要将默认的search插件去掉, :worried: 在window下安装该插件时总是出错 :worried:
 插件地址 ：https://plugins.gitbook.com/plugin/search-pro 
 
+使用该插件必须安装：
+* 1) 安装 .NET Framework 2.0 SDK；（400多m安装包）
+* 2) 安装 Microsoft Visual Studio 2005；（1.5g安装包）
+
+
+
 ```json
 "plugins": [
     "-search",

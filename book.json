@@ -19,17 +19,8 @@
          "prismjs/themes/prism-okaidia.css"
        ]
     },
-    "disqus": {
-      "shortName": "gitbook-guide"
-    },
     "github": {
       "url": "https://github.com/zq99299/gitbook-guide"
-    },
-    "baidu": {
-        "token": "a9787f0ab4"
-    },
-    "sitemap": {
-        "hostname": "http://mrcode.cn/"
     },
     "github-buttons": {
       "repo": "zq99299/gitbook-guide",
@@ -44,36 +35,7 @@
         "modify_label": "该文件修订时间：",
         "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
-    "toc": {
-        "addClass": true,
-        "className": "toc"
-    },
-    "atoc": {
-        "addClass": true,
-        "className": "atoc"
-    },
     "expandable-chapters":{},
-    "components": {
-      "templatePath": "components",
-      "templates": [
-        {
-          "name": "header",
-          "target": "body",
-          "prepend": "true"
-        },
-        {
-          "name": "footer",
-          "target": ".book",
-          "prepend": "false"
-        }
-      ]
-    },
-    "page-treeview": {
-            "style": "markdown",
-            "copyright": "Copyright &#169; zq99299", 
-            "minHeaderCount": "1",
-            "minHeaderDeep": "1"
-     },
     "page-footer": {
             "description": "modified at",
             "signature": "Aleen",
@@ -84,7 +46,7 @@
             "copyrightColor": "#666",
             "utcOffset": "8",
             "isShowQRCode": true,
-            "baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
+            "baseUri": "https://zq99299.gitbooks.io/gitbook-guide/content/",
             "isShowIssues": true,
             "repo": "zq99299/gitbook-guide",
             "issueNum": "8",
@@ -93,6 +55,10 @@
     },
 	"anchor-navigation-ex":{
 		"isRewritePageTitle":true
-	}
+	},
+	"search-pro": {
+        "cutWordLib": "nodejieba",
+        "defineWord" : ["插件","plugin"]
+    }
   }
 } 
