@@ -17,98 +17,21 @@ cnpm install gitbook-plugin-插件名称
 cnpm install gitbook-plugin-tbfed-pagefooter
 ```
 
-## 测试实用性点评-个人观点
+## 个人觉得必须实用的插件
 * [4.1. prismjs 代码高亮](plugin/prismjs.md) `★★★★★`
+* [anchors 标题带有 github 样式的锚点](https://plugins.gitbook.com/plugin/anchors) `★★★★★`
+* [anchor-navigation-ex 自用修复navigator插件相关bug和增加功能](https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex) `★★★★★`
+* [Splitter 使侧边栏的宽度可以自由调节](https://plugins.gitbook.com/plugin/splitter)`★★★★★`
+* [expandable-chapters 目录折叠](https://github.com/DomainDrivenArchitecture/gitbook-plugin-expandable-chapters)`★★★★★`
+* [Tbfed-pagefooter 为页面添加页脚修改时间](https://plugins.gitbook.com/plugin/tbfed-pagefooter) `★★★★★`
+
+
+## 还可以但是不是必须的插件
+
 * [4.2. ace 代码高亮编辑](plugin/ace.md)
 * [4.3. navigator 页面导航](plugin/navigator.md) `★★★`
 * [page-footer 页脚添加信息](https://github.com/aleen42/gitbook-footer) `★★★★★`
-* [anchor-navigation-ex 自用修复navigator插件相关bug和增加功能](https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex) `★★★★★`
-* [Splitter 使侧边栏的宽度可以自由调节](https://plugins.gitbook.com/plugin/splitter)`★★★★★`
 
-
-
-# 觉得比较好用的插件
-## prism 代码高亮
-https://plugins.gitbook.com/plugin/prism
-基于 Prism 的代码高亮。
-
-## anchors 标题带有 github 样式的锚点。
-https://plugins.gitbook.com/plugin/anchors
-
-**实际测试：** 可用性还行，点击标题能让该标题内容滚动到当前屏幕的最上方
-
-## Splitter 使侧边栏的宽度可以自由调节
-
-
-插件地址 : https://plugins.gitbook.com/plugin/splitter
-
-![](/images/gitbook-splitter-demo.gif)
-
-## Tbfed-pagefooter
-
-为页面添加页脚
-
-插件地址 : https://plugins.gitbook.com/plugin/tbfed-pagefooter
-```json
-"plugins": [
-   "tbfed-pagefooter"
-],
-"pluginsConfig": {
-    "tbfed-pagefooter": {
-        "copyright":"Copyright &copy zhangjikai.com 2015",
-        "modify_label": "该文件修订时间：",
-        "modify_format": "YYYY-MM-DD HH:mm:ss"
-    }
-}
-```
-**实际测试：** 非常不错，能在文章最底部显示文件的修改时间
-
-## Toggle Chapters
-
-是左侧的章节目录可以折叠
-
-插件地址 : https://plugins.gitbook.com/plugin/toggle-chapters
-```json
-"plugins": ["toggle-chapters"]
-```
-**实际测试：** 该插件还行，就是折叠没有任何样式，很难发现
-
-## expandable-chapters 目录折叠
-https://github.com/DomainDrivenArchitecture/gitbook-plugin-expandable-chapters
-**实际测试：** 有样式，比上面的好
-
-## Toc / atoc / anchor-navigation
-
-自动生成本页的目录结构，一般情况下生成的目录是正常的，但是可能会与其他插件冲突，造成生成的目录不正确.
-
-插件地址 : 
-* https://plugins.gitbook.com/plugin/toc
-* https://plugins.gitbook.com/plugin/atoc
-* https://plugins.gitbook.com/plugin/anchor-navigation
-
-下面的 pluginsConfig用来给ul添加css样式
-```json
-"pugins": [
-    "toc"
-],
-"pluginsConfig": {
-    "toc": {
-        "addClass": true,
-        "className": "toc"
-    }
-}
-```
-使用方法: 在需要生成目录的地方加上
-
-**实际测试：** 两个插件不能混用
-* toc : 文档中可以存在多个，平面的被插入到指定位置
-* atoc : 文档中只能存在一个，悬浮在最右侧
-
-![](/images/atoc-demo.png)
-
-* anchor-navigation : 效果挺不错，但是我这里测试并没有显示出来，测试失败
-
-![](/images/anchor-navigation-demo.JPG)
 
 
 --------
