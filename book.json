@@ -7,11 +7,10 @@
        "github",
        "prism",
        "-highlight",
-       "anchors",
        "tbfed-pagefooter",
        "expandable-chapters",
-       "navigator",
-       "-page-treeview",
+	   "anchors",
+       "anchor-navigation-ex",
        "page-footer"  
     ],
   "pluginsConfig": {
@@ -91,6 +90,9 @@
             "issueNum": "8",
             "token": "",
             "style": "normal"
-        }
+    },
+	"anchor-navigation-ex":{
+		"isRewritePageTitle":true
+	}
   }
 } 
