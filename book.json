@@ -11,7 +11,8 @@
        "expandable-chapters",
 	   "anchors",
        "anchor-navigation-ex",
-       "page-footer"  
+       "page-footer",
+       "advanced-emoji"	   
     ],
   "pluginsConfig": {
     "prism": {
