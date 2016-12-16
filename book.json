@@ -41,7 +41,7 @@
     "page-footer": {
             "description": "modified at",
             "signature": "mrcode.cn",
-            "wisdom": "More than a coder, more than a designer",
+            "wisdom": "尝试使用Gitbook整理笔记",
             "format": "yyyy-MM-dd hh:mm:ss",
             "copyright": "Copyright &#169; mrcode.cn",
             "timeColor": "#666",
