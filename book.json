@@ -12,7 +12,8 @@
 	   "anchors",
        "anchor-navigation-ex",
        "page-footer",
-       "advanced-emoji"	   
+       "advanced-emoji",
+       "bootstrap-callout" 	   
     ],
   "pluginsConfig": {
     "prism": {
@@ -39,10 +40,10 @@
     "expandable-chapters":{},
     "page-footer": {
             "description": "modified at",
-            "signature": "Aleen",
+            "signature": "mrcode.cn",
             "wisdom": "More than a coder, more than a designer",
             "format": "yyyy-MM-dd hh:mm:ss",
-            "copyright": "Copyright &#169; zq99299",
+            "copyright": "Copyright &#169; mrcode.cn",
             "timeColor": "#666",
             "copyrightColor": "#666",
             "utcOffset": "8",

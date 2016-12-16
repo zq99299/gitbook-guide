@@ -5,7 +5,7 @@
 * 可能不会随着gitbook的升级而升级
 * 每个开发者都有自己的开发习惯，所以插件很有可能和其他插件冲突，导致失效
 
-分享个寻找插件的方法：所谓插件是符合自己需求的才是最好的，https://plugins.gitbook.com/ 官网插件库，暂时不知道怎么才能把自己的插件发布到这个里面，所以某些插件是在这里面找不到的。
+分享个寻找插件的方法：所谓插件是符合自己需求的才是最好的，https://plugins.gitbook.com/ 官网插件库，该库会自动拉取npm 中 gitbook-plugin- 前缀的插件。
 
 1. 根据名称寻找你需求的插件
 2. 查看详细描述，如果觉得还ok，就自己尝试测试下效果，这样寻找插件是最好的。
@@ -33,6 +33,7 @@ cnpm install gitbook-plugin-tbfed-pagefooter
 * [4.2. ace 代码高亮编辑](plugin/ace.md)
 * [4.3. navigator 页面导航](plugin/navigator.md) `★★★`
 * [page-footer 页脚添加信息](https://github.com/aleen42/gitbook-footer) `★★★★★`
+* [bootstrap-callout 多风格样式标注](https://github.com/getredash/gitbook-plugin-bootstrap-callout) `★★★★★`
 
 
 
@@ -388,3 +389,33 @@ google 统计
 }
 ```
 使用1.1.0生成的xml文件有些问题, 所以这里使用1.0.2版本
+
+## bootstrap-callout 多风格样式标注
+
+> #### primary:: primary Title
+>
+> 测试
+
+用空行隔开多个标注还不行
+
+> #### success:: success Title
+>
+> 测试
+
+只能使用文字隔开？或则分割线？
+
+> #### danger:: danger Title
+>
+> 测试
+
+---
+
+> #### warning:: warning Title
+>
+> 测试
+
+---
+
+> #### info::Title
+>
+> 测试
