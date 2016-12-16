@@ -34,6 +34,7 @@ cnpm install gitbook-plugin-tbfed-pagefooter
 * [4.3. navigator 页面导航](plugin/navigator.md) `★★★`
 * [page-footer 页脚添加信息](https://github.com/aleen42/gitbook-footer) `★★★★★`
 * [bootstrap-callout 多风格样式标注](https://github.com/getredash/gitbook-plugin-bootstrap-callout) `★★★★★`
+* [autocover 封装生成](https://plugins.gitbook.com/plugin/autocover) `★★★★★`
 
 
 
@@ -121,7 +122,15 @@ https://plugins.gitbook.com/plugin/github-buttons
 * 1) 安装 .NET Framework 2.0 SDK；（400多m安装包）
 * 2) 安装 Microsoft Visual Studio 2005；（1.5g安装包）
 
+## autocover 封装生成 
 
+https://toolchain.gitbook.com/ebook.html
+
+https://plugins.gitbook.com/plugin/autocover
+
+使用该插件必须安装：
+* 1) 安装 .NET Framework 2.0 SDK；（400多m安装包）
+* 2) 安装 Microsoft Visual Studio 2005；（1.5g安装包）
 
 ```json
 "plugins": [

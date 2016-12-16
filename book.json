@@ -13,7 +13,8 @@
        "anchor-navigation-ex",
        "page-footer",
        "advanced-emoji",
-       "bootstrap-callout" 	   
+       "bootstrap-callout",
+       "autocover" 	   
     ],
   "pluginsConfig": {
     "prism": {
@@ -61,6 +62,20 @@
 	"search-pro": {
         "cutWordLib": "nodejieba",
         "defineWord" : ["插件","plugin"]
-    }
+    },
+	"autocover": {
+            "font": {
+                "size": null,
+                "family": "Impact",
+                "color": "#FFF"
+            },
+            "size": {
+                "w": 1800,
+                "h": 2360
+            },
+            "background": {
+                "color": "#09F"
+            }
+        } 
   }
 } 
