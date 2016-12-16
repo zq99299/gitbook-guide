@@ -113,6 +113,7 @@ https://plugins.gitbook.com/plugin/github-buttons
 }
 ```
 
+
 ## Search Pro 支持中文搜索
 
 支持中文搜索, 需要将默认的search插件去掉, :worried: 在window下安装该插件时总是出错 :worried:
