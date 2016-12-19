@@ -13,7 +13,9 @@
        "anchor-navigation-ex",
        "page-footer",
        "advanced-emoji",
-	   "bootstrap-callout"
+	   "bootstrap-callout",
+	   "-search",
+	   "search-pro"
     ],
   "pluginsConfig": {
     "prism": {
