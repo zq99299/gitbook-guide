@@ -9,5 +9,7 @@
     * [4.2. ace 代码高亮编辑](chapter/plugin/ace.md)
     * [4.3. navigator 页面导航](chapter/plugin/navigator.md)
 * [5. NPM相关](chapter/node_npm.md)
-* [6. 主题](chapter/theme.md)
+* [6. 主题](chapter/theme/README.md)
+    * [6.1 API](chapter/theme/api.md)
+    * [6.2 FAQ](chapter/theme/faq.md)    
 
