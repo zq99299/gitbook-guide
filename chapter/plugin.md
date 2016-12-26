@@ -32,7 +32,7 @@ cnpm install gitbook-plugin-tbfed-pagefooter
 
 * [4.2. ace 代码高亮编辑](plugin/ace.md)
 * [4.3. navigator 页面导航](plugin/navigator.md) `★★★`
-* [page-footer 页脚添加信息](https://github.com/aleen42/gitbook-footer) `★★★★★`
+* [page-footer 页脚添加信息](https://github.com/aleen42/gitbook-footer) `★★★★★`  `注：` 编译时期就调用github接口
 * [bootstrap-callout 多风格样式标注](https://github.com/getredash/gitbook-plugin-bootstrap-callout) `★★★★★`
 * [autocover 封装生成](https://plugins.gitbook.com/plugin/autocover) `★★★★★`
 
@@ -122,6 +122,8 @@ https://plugins.gitbook.com/plugin/github-buttons
 使用该插件必须安装：
 * 1) 安装 .NET Framework 2.0 SDK；（400多m安装包）
 * 2) 安装 Microsoft Visual Studio 2005；（1.5g安装包）
+
+`测试结果：` 两样都安装了，本地Gitbook install 报错，直接提交到Gitbook上面编译也报错。所以这个插件不能使用
 
 ## autocover 封装生成 
 
