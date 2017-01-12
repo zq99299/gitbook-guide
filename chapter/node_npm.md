@@ -3,6 +3,15 @@
 * 镜像更换
 * 安装cnpm
 
+
+## 安装node
+https://nodejs.org/en/
+1. 下载6.+版本
+2. 点击安装，在安装的时候，有一项是AddPath；
+	该项是默认的，如果以后遇到使用npm安装软件之后，提示命令找不到，那么去配添加下全局路径中的 node_global\node_modules 在path中。
+
+
+
 ## 修改配置文件
 C:\Users（用户）\你的用户名\.npmrc 这个文件中
 ```
@@ -23,6 +32,38 @@ npm install cnpm -g
 cnpm config set prefix “D:\Program Files\node\node-global” 
 cnpm config set cache “D:\Program Files\node\node-cache”
 ```
+
+## 如果出现命令无效
+那么先看全局路径所在的位置，然后该该路径添加到环境变量Path中
+```bash
+npm root -g
+```
+
+## npm更新到最新版本的方法
+1. 查询当前已按照版本
+```bash
+npm -v
+```
+2. 安装最新的版本到当前目录下
+```bash
+npm i npm g 
+运行完成之后会出现以下目录：
+|- node_modules
+|-- .bin
+|-- g
+|-- npm
+这里的npm就是最新的npm包。
+```
+
+## npm更新：另外一个命令
+```bash
+npm update -g
+```
+
+4. 删除并覆盖远文件夹
+把下载下来的npm文件夹复制到nodejs的安装目录下 
+我是按照到e盘的： `e:\nodejs\node_modules`
+要先删除该文件夹已有的npm文件夹。
 
 
 ## 插件发布到npm社区
