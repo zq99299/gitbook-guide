@@ -38,7 +38,8 @@ cnpm config set cache “D:\Program Files\node\node-cache”
 ```bash
 npm root -g
 ```
-`注意：`在安装node的时候好像会添加一个默认路径到环境变量中，需要更改掉该路径，不然你用到的都是以前的，但是下载安装的却是现在的。如图：![](/assets/QQ拼音截图未命名.jpg)
+`注意：`在安装node的时候好像会添加一个默认路径到环境变量中，需要更改掉该路径，不然你用到的都是以前的，但是下载安装的却是现在的。如图：
+![](/images/node-npm-path.jpg)
 
 
 ## npm更新到最新版本的方法
