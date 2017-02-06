@@ -1,6 +1,7 @@
 # 配置
-记录Gitbook的一些配置信息
 
+记录Gitbook的一些配置信息
+在book.json 中配置以下信息
 * title - 标题
 * author - 作者信息
 * description - 书本描述
@@ -216,3 +217,12 @@ Gitbook默认带有5个插件：
     }
 }
 ```
+
+# 其他配置
+## 配置pdf封面
+在项目根目录下添加：
+- cover_small.jpg
+
+ 大图，1800 * 2360
+- cover.jpg
+ 小图，200 * 262
