@@ -10,7 +10,7 @@
        "page-footer-ex",
        "anchor-navigation-ex",
        "expandable-chapters",
-       "page-footer",
+       "-page-footer",
        "advanced-emoji",
 	"bootstrap-callout"
     ],
