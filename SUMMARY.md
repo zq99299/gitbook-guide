@@ -8,8 +8,9 @@
     * [4.1. prismjs 代码高亮](chapter/plugin/prismjs.md)
     * [4.2. ace 代码高亮编辑](chapter/plugin/ace.md)
     * [4.3. navigator 页面导航](chapter/plugin/navigator.md)
-* [5. NPM相关](chapter/node_npm.md)
-* [6. 主题](chapter/theme/README.md)
-    * [6.1 API](chapter/theme/api.md)
-    * [6.2 FAQ](chapter/theme/faq.md)    
+* [5. 插件开发](chapter/dev_plugin.md)    
+* [6. NPM相关](chapter/node_npm.md)
+* [7. 主题](chapter/theme/README.md)
+    * [7.1 API](chapter/theme/api.md)
+    * [7.2 FAQ](chapter/theme/faq.md)    
 
