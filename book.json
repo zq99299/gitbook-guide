@@ -12,7 +12,8 @@
        "expandable-chapters",
        "-page-footer",
        "advanced-emoji",
-	"bootstrap-callout"
+	"bootstrap-callout",
+	"disqus"
     ],
   "pluginsConfig": {
     "prism": {
@@ -31,31 +32,12 @@
       ],
       "size": "large"
     },
-    "tbfed-pagefooter": {
-        "copyright":"Copyright &copy mrcode.cn",
-        "modify_label": "该文件修订时间：",
-        "modify_format": "YYYY-MM-DD HH:mm:ss"
-    },
     "expandable-chapters":{},
-    "page-footer": {
-            "description": "modified at",
-            "signature": "mrcode.cn",
-            "wisdom": "尝试使用Gitbook整理笔记",
-            "format": "yyyy-MM-dd hh:mm:ss",
-            "copyright": "Copyright &#169; mrcode.cn",
-            "timeColor": "#666",
-            "copyrightColor": "#666",
-            "utcOffset": "0",
-            "isShowQRCode": true,
-            "baseUri": "https://zq99299.gitbooks.io/gitbook-guide/content/",
-            "isShowIssues": true,
-            "repo": "zq99299/gitbook-guide",
-            "issueNum": "8",
-            "token": "",
-            "style": "normal"
+    "anchor-navigation-ex":{
+      "isRewritePageTitle":true
     },
-	"anchor-navigation-ex":{
-		"isRewritePageTitle":true
-	}
+    "disqus": {
+      "shortName": "gitbook-guide"
+    }
   }
 } 
