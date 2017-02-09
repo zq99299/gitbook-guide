@@ -21,11 +21,12 @@ cnpm install gitbook-plugin-tbfed-pagefooter
 
 ## 个人觉得必须实用的插件
 * [4.1. prismjs 代码高亮](plugin/prismjs.md) `★★★★★`
-* [anchors 标题带有 github 样式的锚点](https://plugins.gitbook.com/plugin/anchors) `★★★★★`
-* [anchor-navigation-ex 自用修复navigator插件相关bug和增加功能](https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex) `★★★★★`
+
+* [anchor-navigation-ex 自写插件：增加页面标题锚点效果、增加悬浮导航](https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex) `★★★★★`
+* [Tbfed-pagefooter 自写插件：定制页脚，版权信息和时间](https://github.com/zq99299/gitbook-plugin-page-footer-ex) `★★★★★`
 * [Splitter 使侧边栏的宽度可以自由调节](https://plugins.gitbook.com/plugin/splitter)`★★★★★`
 * [expandable-chapters 目录折叠](https://github.com/DomainDrivenArchitecture/gitbook-plugin-expandable-chapters)`★★★★★`
-* [Tbfed-pagefooter 为页面添加页脚修改时间](https://plugins.gitbook.com/plugin/tbfed-pagefooter) `★★★★★`
+
 
 
 ## 还可以但是不是必须的插件
@@ -35,6 +36,12 @@ cnpm install gitbook-plugin-tbfed-pagefooter
 * [page-footer 页脚添加信息](https://github.com/aleen42/gitbook-footer) `★★★★★`  `注：` 编译时期就调用github接口
 * [bootstrap-callout 多风格样式标注](https://github.com/getredash/gitbook-plugin-bootstrap-callout) `★★★★★`
 * [autocover 封装生成](https://plugins.gitbook.com/plugin/autocover) `★★★★★`
+* [anchors 标题带有 github 样式的锚点](https://plugins.gitbook.com/plugin/anchors) `★★★★★`
+* [Tbfed-pagefooter 为页面添加页脚修改时间](https://plugins.gitbook.com/plugin/tbfed-pagefooter) `★★★★★`
+
+
+
+
 
 
 
