@@ -12,8 +12,7 @@
        "expandable-chapters",
        "-page-footer",
        "advanced-emoji",
-	"bootstrap-callout",
-	"disqus"
+	"bootstrap-callout"
     ],
   "pluginsConfig": {
     "prism": {
@@ -35,9 +34,6 @@
     "expandable-chapters":{},
     "anchor-navigation-ex":{
       "isRewritePageTitle":true
-    },
-    "disqus": {
-      "shortName": "gradlenote.duoshuo.com"
     }
   }
 } 
