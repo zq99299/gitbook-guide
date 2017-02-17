@@ -281,6 +281,8 @@ sdfdsfdsfsd
     * [FAQ](chapter/theme/faq.md)
 ```
 
+`需要注意的坑：` 每个`[主题](chapter/theme/README.md)` 链接的目录地址一定要存在。否则在解析之后，生成的网站目录显示是不正确的。
+
 > 参考链接： https://toolchain.gitbook.com/pages.html
  
  
