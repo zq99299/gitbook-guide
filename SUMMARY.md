@@ -1,5 +1,4 @@
 ##1. Gitbook 使用笔记
-* [概述](chapter/README.md)
 * [安装](chapter/install.md)
 * [命令](chapter/command.md)
 * [配置](chapter/bookjson.md)
