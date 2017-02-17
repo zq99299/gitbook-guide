@@ -226,3 +226,18 @@ Gitbook默认带有5个插件：
  大图，1800 * 2360
 - cover.jpg
  小图，200 * 262
+ 
+ 
+ # 目录配置
+ 默认主题有一个配置参数： 显示层级的。
+ ```
+ "theme-default": {
+   "showLevel": true
+ }
+ ```
+ 它的解析方式应该如下：
+ ```
+ # 该标题不会显示
+ 
+* [FAQ](chapter/theme/faq.md)  
+ ```
