@@ -228,16 +228,38 @@ Gitbook默认带有5个插件：
  小图，200 * 262
  
  
- # 目录配置
- 默认主题有一个配置参数： 显示层级的。
- ```
+# 目录配置
+默认主题有一个配置参数： 显示层级的。
+```
  "theme-default": {
    "showLevel": true
  }
- ```
- 它的解析方式应该如下：
- ```
- # 该标题不会显示
+```
+
+它的解析方式应该如下：
+
+```
+SUMMARY.md
  
-* [FAQ](chapter/theme/faq.md)  
- ```
+# xxxx
+
+* [前言](README.md)
+
+## xxxx
+
+* [前言](README.md)
+
+# cc
+sdfdsfdsfsd
+* [前言](README.md)
+
+============  以上是SUMMARY.md 内容 ======
+解析出来在网页中的效果是：
+1.1 [前言](README.md)
+2.1 [前言](README.md)
+sdfdsfdsfsd
+3.1 [前言](README.md)
+
+```
+ 
+ 
