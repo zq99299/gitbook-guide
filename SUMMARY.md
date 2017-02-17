@@ -16,7 +16,7 @@
     * [FAQ](chapter/theme/faq.md)    
 
 
-＃我的摘要
+我的摘要
 
 ##我的第一部分
 
