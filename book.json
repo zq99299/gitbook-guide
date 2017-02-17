@@ -1,38 +1,42 @@
 {
-  "title": "gitbooke使用文档-学习笔记",
-  "description": "gitbook-guide",
-  "language": "zh-hans",
-   "plugins": [
-       "splitter",
-       "github",
-       "prism",
-       "-highlight",
-       "page-footer-ex",
-       "anchor-navigation-ex",
-       "expandable-chapters",
-       "advanced-emoji",
-	"bootstrap-callout"
+    "plugins": [
+        "splitter",
+        "github",
+        "prism",
+        "-highlight",
+        "page-footer-ex",
+        "anchor-navigation-ex",
+        "expandable-chapters",
+        "advanced-emoji",
+        "bootstrap-callout"
     ],
-  "pluginsConfig": {
-    "prism": {
-       "css": [
-         "prismjs/themes/prism-okaidia.css"
-       ]
+    "pluginsConfig": {
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-okaidia.css"
+            ]
+        },
+        "github": {
+            "url": "https://github.com/zq99299/gitbook-guide"
+        },
+        "github-buttons": {
+            "repo": "zq99299/gitbook-guide",
+            "types": [
+                "star",
+                "watch"
+            ],
+            "size": "large"
+        },
+        "expandable-chapters": {},
+        "anchor-navigation-ex": {
+            "isRewritePageTitle": true
+        },
+        "theme-default": {
+            "styles": "",
+            "showLevel": true
+        }
     },
-    "github": {
-      "url": "https://github.com/zq99299/gitbook-guide"
-    },
-    "github-buttons": {
-      "repo": "zq99299/gitbook-guide",
-      "types": [
-        "star",
-        "watch"
-      ],
-      "size": "large"
-    },
-    "expandable-chapters":{},
-    "anchor-navigation-ex":{
-      "isRewritePageTitle":true
-    }
-  }
-} 
+    "title": "gitbooke使用文档-学习笔记",
+    "language": "zh-hans",
+    "description": "gitbook-guide"
+}
