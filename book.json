@@ -32,7 +32,6 @@
             "isRewritePageTitle": true
         },
         "theme-default": {
-            "styles": "",
             "showLevel": true
         }
     },
