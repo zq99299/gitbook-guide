@@ -1,6 +1,4 @@
-
-
-##1.我的第一部分
+##1. Gitbook 使用笔记
 * [概述](chapter/README.md)
 * [安装](chapter/install.md)
 * [命令](chapter/command.md)
@@ -13,22 +11,7 @@
 * [NPM相关](chapter/node_npm.md)
 * [主题](chapter/theme/README.md)
     * [API](chapter/theme/api.md)
-    * [FAQ](chapter/theme/faq.md)    
-
-
-
-
-
-* 一篇文章
-*第1部分中的另一个
-
-##我的第二部分
-
-*第2部分的一篇文章
-
-----
-
-*未命名部分中的文章
+    * [FAQ](chapter/theme/faq.md)
 
 
     
