@@ -1,6 +1,6 @@
 
-# Summary
 
+##我的第一部分
 * [概述](chapter/README.md)
 * [安装](chapter/install.md)
 * [命令](chapter/command.md)
@@ -16,9 +16,8 @@
     * [FAQ](chapter/theme/faq.md)    
 
 
-2.我的摘要
 
-##我的第一部分
+
 
 * 一篇文章
 *第1部分中的另一个
