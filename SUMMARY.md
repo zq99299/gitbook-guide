@@ -1,6 +1,6 @@
 
 
-##我的第一部分
+##1.我的第一部分
 * [概述](chapter/README.md)
 * [安装](chapter/install.md)
 * [命令](chapter/command.md)
