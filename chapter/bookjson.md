@@ -262,6 +262,24 @@ sdfdsfdsfsd
 
 ```
 
+本书的侧边栏效果文件如下:
+```
+##1. Gitbook 使用笔记
+* [概述](chapter/README.md)
+* [安装](chapter/install.md)
+* [命令](chapter/command.md)
+* [配置](chapter/bookjson.md)
+* [插件](chapter/plugin.md)
+    * [prismjs 代码高亮](chapter/plugin/prismjs.md)
+    * [ace 代码高亮编辑](chapter/plugin/ace.md)
+    * [navigator 页面导航](chapter/plugin/navigator.md)
+* [插件开发](chapter/dev_plugin.md)    
+* [NPM相关](chapter/node_npm.md)
+* [主题](chapter/theme/README.md)
+    * [API](chapter/theme/api.md)
+    * [FAQ](chapter/theme/faq.md)
+```
+
 > 参考链接： https://toolchain.gitbook.com/pages.html
  
  
