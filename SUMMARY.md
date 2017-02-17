@@ -13,4 +13,9 @@
 * [7. 主题](chapter/theme/README.md)
     * [7.1 API](chapter/theme/api.md)
     * [7.2 FAQ](chapter/theme/faq.md)    
+    
+# ssss
+* [FAQ](chapter/theme/faq.md)   
+
+    
 
