@@ -57,7 +57,7 @@ npm root -g
 linux 下：
 ```bash
 vim /etc/profile
-export NODE_MODULES=/mnt/xx/app/node/node-global/lib/node_modules
+export NODE_MODULES=/mnt/xx/app/node/node-global/bin
 export PATH=$NODE_MODULES
 
 再刷新 ： source /etc/profile
