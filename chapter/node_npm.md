@@ -10,6 +10,12 @@ https://nodejs.org/en/
 2. 点击安装，在安装的时候，有一项是AddPath；
 	该项是默认的，如果以后遇到使用npm安装软件之后，提示命令找不到，那么去配添加下全局路径中的 node_global\node_modules 在path中。
 
+## linux 安装
+https://nodejs.org/en/download/
+
+1. 下载 linux 版本的，如：node-v6.10.0-linux-x64.tar.xz
+2. 解压  tar xvJf node-v6.10.0-linux-x64.tar.xz（两层压缩，外层xz。内层tar）
+
 
 
 ## 修改配置文件
