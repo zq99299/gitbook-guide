@@ -59,6 +59,8 @@ linux 下：
 vim /etc/profile
 export NODE_MODULES=/mnt/xx/app/node/node-global/lib/node_modules
 export PATH=$NODE_MODULES
+
+再刷新 ： source /etc/profile
 ```
 
 ## npm更新到最新版本的方法
