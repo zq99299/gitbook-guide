@@ -54,6 +54,12 @@ npm root -g
 `注意：`在安装node的时候好像会添加一个默认路径到环境变量中，需要更改掉该路径，不然你用到的都是以前的，但是下载安装的却是现在的。如图：
 ![](/images/node-npm-path.jpg)
 
+linux 下：
+```bash
+vim /etc/profile
+export NODE_MODULES=/mnt/xx/app/node/node-global/lib/node_modules
+export PATH=$NODE_MODULES
+```
 
 ## npm更新到最新版本的方法
 1. 查询当前已按照版本
