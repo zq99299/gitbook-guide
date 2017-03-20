@@ -14,7 +14,7 @@ https://nodejs.org/en/
 https://nodejs.org/en/download/
 
 1. 下载 linux 版本的，如：node-v6.10.0-linux-x64.tar.xz
-2. 解压  tar xvJf node-v6.10.0-linux-x64.tar.xz（两层压缩，外层xz。内层tar）
+2. 解压  tar xvJf node-v6.10.0-linux-x64.tar.xz （两层压缩，外层xz。内层tar）
 
 
 
