@@ -29,6 +29,7 @@
         },
         "expandable-chapters": {},
         "anchor-navigation-ex": {
+            mode: "pageTop"
         },
         "theme-default": {
             "showLevel": true
