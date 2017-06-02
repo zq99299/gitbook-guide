@@ -1,3 +1,4 @@
+
 这是一个新功能，在此处增加`<extoc></extoc>`标签就会在此处生成toc目录
 <extoc></extoc>
 
@@ -41,10 +42,6 @@ cnpm install gitbook-plugin-tbfed-pagefooter
 * [autocover 封装生成](https://plugins.gitbook.com/plugin/autocover) `★★★★★`
 * [anchors 标题带有 github 样式的锚点](https://plugins.gitbook.com/plugin/anchors) `★★★★★`
 * [Tbfed-pagefooter 为页面添加页脚修改时间](https://plugins.gitbook.com/plugin/tbfed-pagefooter) `★★★★★`
-
-
-
-
 
 
 
@@ -441,3 +438,18 @@ google 统计
 > #### info::Title
 >
 > 测试
+
+
+# 以下为测试区
+# 没有尝试或则尝试失败的插件
+重复标题测试 v1.0.4 新功能
+
+# 重复测试
+
+# 没有尝试或则尝试失败的插件
+重复标题测试 v1.0.4 新功能
+
+# 重复测试2
+
+# 没有尝试或则尝试失败的插件
+重复标题测试 v1.0.4 新功能
