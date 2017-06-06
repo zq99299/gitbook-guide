@@ -44,7 +44,9 @@ npm config set cache “D:\Program Files\node\node-cache”
 
 ## 安装cnpm
 ```
-npm install cnpm -g
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+如果在按照cnpm的时候出现很久都完成不了，那么就直接找到`.cnpmrc`配置文件，先配置好目录，注意路径中不能有空格，否则会出现执行什么命令都不正常
 cnpm config set prefix “D:\Program Files\node\node-global” 
 cnpm config set cache “D:\Program Files\node\node-cache”
 ```
