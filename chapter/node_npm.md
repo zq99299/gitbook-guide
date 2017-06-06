@@ -40,12 +40,15 @@ registry = http://registry.cnpmjs.org
 ```bash
 npm config set prefix “D:\Program Files\node\node-global” 
 npm config set cache “D:\Program Files\node\node-cache” 
+```
 
 ## 安装cnpm
+```
 npm install cnpm -g
 cnpm config set prefix “D:\Program Files\node\node-global” 
 cnpm config set cache “D:\Program Files\node\node-cache”
 ```
+配置文件在在：C:\Users（用户）\你的用户名\.cnpmrc 这个文件中
 
 ## 如果出现命令无效
 那么先看全局路径所在的位置，然后该该路径添加到环境变量Path中
