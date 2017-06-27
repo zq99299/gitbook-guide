@@ -27,11 +27,13 @@ ln -s /home/kun/mysofltware/node-v6.10.0-linux-x64/bin/npm /usr/local/bin/npm
 
 
 ## 修改配置文件
-C:\Users（用户）\你的用户名\.npmrc 这个文件中
+C:\Users（用户）\你的用户名\.npmrc 这个文件中 (如果没有该文件，请手动创建)
+该配置文件修改之后，就可以不用安装cnpm了。因为获取数据源的时候就是从淘宝镜像获取的。
 ```
 prefix=e:\node\node-global
 cache=E:\node\node-cache
-registry = http://registry.cnpmjs.org 
+registry = https://registry.npm.taobao.org      // 这个是切换到淘宝的镜像，原生镜像是http://registry.cnpmjs.org 
+
 ```
 以上文件名需要注意，最好不要有中文和空格，否则会出现，输入npm命令无任何反应
 
