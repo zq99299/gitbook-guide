@@ -8,7 +8,8 @@
         "anchor-navigation-ex",
         "expandable-chapters",
         "advanced-emoji",
-        "bootstrap-callout"
+        "bootstrap-callout",
+        "search-jieba"
     ],
     "pluginsConfig": {
         "prism": {
