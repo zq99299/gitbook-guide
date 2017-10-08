@@ -1,4 +1,4 @@
-* [安装](chapter/install.md)
+[安装](chapter/install.md)
 * [命令](chapter/command.md)
 * [配置](chapter/bookjson.md)
 * [插件](chapter/plugin.md)
