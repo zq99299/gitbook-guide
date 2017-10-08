@@ -88,3 +88,9 @@ gitbook builid --debug
 ```
 gitbook install ./
 ```
+
+## 生成电子书
+
+> 参考目录：https://toolchain.gitbook.com/ebook.html
+
+在新版本的gitbook中不需要安装其他node客户端，运行`gitbook pdf ./ ./mybook.pdf`，前提是要安装对应系统的 `calibre-3.7.0.msi`
