@@ -131,7 +131,7 @@ npm install npm@latest -g
    Email: yourmail
    ```
 
-   npm会把认证信息存储在~/.npmrc中，并且可以通过以下命令查看npm当前使用的用户：$ npm whoami 
+可以通过以下命令查看npm当前使用的用户：$ npm whoami 
 3. 推送到npm社区
    ```bash
    进入插件所在目录，
