@@ -115,6 +115,7 @@ npm update -g
    要先删除该文件夹已有的npm文件夹。
 
 ## 直接安装或则更新指定版本的npm
+
 ```bash
 # 艾特后面可以跟随指定的版本号
 npm install npm@latest -g
@@ -130,13 +131,14 @@ npm install npm@latest -g
    Password: your password
    Email: yourmail
    ```
-
-可以通过以下命令查看npm当前使用的用户：$ npm whoami 
+   可以通过以下命令查看npm当前使用的用户：$ npm whoami   
 3. 推送到npm社区
+
    ```bash
-   进入插件所在目录，
-   npm publish
+      进入插件所在目录，
+      npm publish
    ```
+
 4. 卸载一个模块
    ```bash
    npm uninstall
