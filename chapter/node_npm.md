@@ -44,7 +44,7 @@ registry = https://registry.npm.taobao.org      // 这个是切换到淘宝的�
 配置npm的全局模块存放路径和cache路径
 
 ```bash
-npm config set prefix “D:\Program Files\node\node-global” 
+npm config set prefix “D:\Program Files\node\node-global”
 npm config set cache “D:\Program Files\node\node-cache”
 ```
 
@@ -53,7 +53,7 @@ npm config set cache “D:\Program Files\node\node-cache”
     npm install -g cnpm --registry=https://registry.npm.taobao.org
 
     如果在按照cnpm的时候出现很久都完成不了，那么就直接找到`.cnpmrc`配置文件，先配置好目录，注意路径中不能有空格，否则会出现执行什么命令都不正常
-    cnpm config set prefix “D:\Program Files\node\node-global” 
+    cnpm config set prefix “D:\Program Files\node\node-global”
     cnpm config set cache “D:\Program Files\node\node-cache”
 
 配置文件在在：C:\Users（用户）\你的用户名.cnpmrc 这个文件中
@@ -94,7 +94,7 @@ export PATH=$NODE_MODULES
    ```
 2. 安装最新的版本到当前目录下
    ```bash
-   npm i npm g 
+   npm i npm g
    运行完成之后会出现以下目录：
    |- node_modules
    |-- .bin
@@ -110,7 +110,7 @@ npm update -g
 ```
 
 1. 删除并覆盖远文件夹
-   把下载下来的npm文件夹复制到nodejs的安装目录下 
+   把下载下来的npm文件夹复制到nodejs的安装目录下
    我是按照到e盘的： `e:\nodejs\node_modules`
    要先删除该文件夹已有的npm文件夹。
 
@@ -126,7 +126,7 @@ npm install npm@latest -g
 1. www.npmjs.org 注册自己的账户
 2. 添加账户注册的信息
    ```bash
-   $ npm adduser    
+   $ npm adduser --registry http://registry.npmjs.org  
    Username: your name
    Password: your password
    Email: yourmail
@@ -149,6 +149,3 @@ npm install npm@latest -g
    如：
    npm unpublish gitbook-plugin-anchor-navigation-ex@1.2.1
    ```
-
-
-
